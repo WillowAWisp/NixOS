@@ -18,7 +18,8 @@
           ./System/Hosts/Overworld/hardware.nix # System specific configuration
 	  ./System/Packages/Develop # Development packages
 	  ./System/Packages/Base # Base packages
-	  ./System/Packages/BspWM # Going to move over to this, need both atm so not in base
+	  ./System/Packages/Vapour # My DE, BSPWM Based.
+	  ./System/Packages/Gnome # Using this to finish making Vapour
           ./Users/Willow # My user
           ./Users/Admin # Root
         ];
