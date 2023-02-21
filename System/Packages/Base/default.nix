@@ -6,5 +6,6 @@
     steam
     neovim
     discord
+    spotify
   ];
 }
