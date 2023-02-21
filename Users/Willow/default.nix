@@ -4,6 +4,6 @@
     home = "/home/wbracker";
     description = "Willow Bracker";
     extraGroups = [ "wheel" ];
-    passwordFile = "/nix/persist/passwords/wbracker"
+    passwordFile = "/nix/persist/passwords/wbracker";
   };
 }
