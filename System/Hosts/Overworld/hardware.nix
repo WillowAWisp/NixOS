@@ -26,6 +26,7 @@
   fileSystems."/nix" = {
     device = "/dev/disk/by-uuid/ee047361-71a3-448c-a664-cc6fb2c1a94a";
     fsType = "xfs";
+    neededForBoot = true;
   };
   
   fileSystems."/etc/nixos" = {

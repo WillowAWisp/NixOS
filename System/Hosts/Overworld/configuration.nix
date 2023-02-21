@@ -58,12 +58,6 @@
   
   environment.etc."NetworkManager/system-connections".source = "/nix/persist/etc/NetworkManager/system-connections";
   
-  # Persist bluetooth connections.
-  
-  systemd.tmpfiles.rules = [
-    "L /var/lib/bluetooth - - - - /nix/persist/var/lib/bluetooth"
-  ];
-  
   # Set nixos state version
   
   system.stateVersion = "22.11";
