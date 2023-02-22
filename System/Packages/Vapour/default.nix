@@ -3,10 +3,11 @@
   
   services.xserver.windowManager.bspwm.enable = true;
   
-  # Add polybar, sxhkd, rofi, kitty, and feh
+  # Add polybar, picom, sxhkd, rofi, kitty, and feh
   
   environment.systemPackages = with pkgs; [
     polybar
+    picom
     sxhkd
     kitty
     rofi
