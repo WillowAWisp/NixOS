@@ -1,13 +1,13 @@
 { config, pkgs, ... }: {
-  # Add bspwm and sxhkd.
+  # Add bspwm.
   
   services.xserver.windowManager.bspwm.enable = true;
-  services.sxhkd.enable = true;
   
   # Add polybar, sxhkd, rofi, and feh
   
   environment.systemPackages = with pkgs; [
     polybar
+    sxhkd
     rofi
     feh
   ];
