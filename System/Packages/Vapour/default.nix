@@ -3,9 +3,10 @@
   
   services.xserver.windowManager.bspwm.enable = true;
   
-  # Add polybar, picom, sxhkd, rofi, kitty, jetbrains-mono, and feh
+  # Add polybar, picom, sxhkd, rofi, kitty, jetbrains-mono, material-design-icons, and feh
   
   fonts.fonts = with pkgs; [
+    material-design-icons
     jetbrains-mono
   ];
 
