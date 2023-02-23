@@ -3,8 +3,12 @@
   
   services.xserver.windowManager.bspwm.enable = true;
   
-  # Add polybar, picom, sxhkd, rofi, kitty, and feh
+  # Add polybar, picom, sxhkd, rofi, kitty, jetbrains-mono, and feh
   
+  fonts.fonts = with pkgs; [
+    nerdfonts
+  ];
+
   environment.systemPackages = with pkgs; [
     polybar
     picom
