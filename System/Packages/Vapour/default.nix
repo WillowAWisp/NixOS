@@ -6,7 +6,7 @@
   # Add polybar, picom, sxhkd, rofi, kitty, jetbrains-mono, and feh
   
   fonts.fonts = with pkgs; [
-    nerdfonts
+    jetbrains-mono
   ];
 
   environment.systemPackages = with pkgs; [
