@@ -19,7 +19,6 @@
 	  ./System/Packages/Develop # Development packages
 	  ./System/Packages/Base # Base packages
 	  ./System/Packages/Vapour # My DE, BSPWM Based.
-	  ./System/Packages/Gnome # Using this to finish making Vapour
           ./Users/Willow # My user
           ./Users/Admin # Root
         ];
