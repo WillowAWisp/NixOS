@@ -7,6 +7,7 @@
     firefox
     steam
     neovim
+    pamixer
     discord
     spotify
     btop
