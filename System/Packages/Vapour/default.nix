@@ -1,8 +1,9 @@
 { config, pkgs, ... }: {
-  # Add bspwm.
+  # Add bspwm and LightDM.
   
+  services.xserver.displayManager.lightdm.enable = true;
   services.xserver.windowManager.bspwm.enable = true;
-  
+
   # Add polybar, picom, sxhkd, rofi, kitty, jetbrains-mono, material-design-icons, unifont, and feh
   
   fonts.fonts = with pkgs; [
