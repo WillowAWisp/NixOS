@@ -11,5 +11,6 @@
     discord
     spotify
     btop
+    obsidian
   ];
 }
