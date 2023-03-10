@@ -1,7 +1,7 @@
 { pkgs, config, ... }: {
   # Dev packages on my machines.
   
-  jb-toolbox = import ./jb-toolbox
+  jb-toolbox = import ./jb-toolbox;
 
   environment.systemPackages = with pkgs; [
     jetbrains.clion
