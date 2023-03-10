@@ -3,7 +3,7 @@
   
   environment.systemPackages = with pkgs; [
     jetbrains.clion
-    callPackage ./jb-toolbox.nix { };
+    callPackage ./jb-toolbox.nix { }
     clang
     cmake
     lldb
