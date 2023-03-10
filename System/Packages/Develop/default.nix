@@ -1,10 +1,9 @@
-{ pkgs, config, overlays, customization, ... }: {
+{ pkgs, config, ... }: {
   # Dev packages on my machines.
   
-  jb-toolbox = callPackage ./jb-toolbox.nix { };
-
   environment.systemPackages = with pkgs; [
     jetbrains.clion
+    vscode
     clang
     cmake
     lldb
