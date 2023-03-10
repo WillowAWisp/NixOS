@@ -7,6 +7,7 @@
     clang
     cmake
     meson
+    ninja
     lldb
     git
   ];
