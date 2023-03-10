@@ -6,6 +6,7 @@
     vscode
     clang
     cmake
+    meson
     lldb
     git
   ];
