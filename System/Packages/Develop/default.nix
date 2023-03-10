@@ -1,4 +1,4 @@
-{ pkgs, config, overlays, ... }: {
+{ pkgs, config, overlays, customization, ... }: {
   # Dev packages on my machines.
   
   jb-toolbox = callPackage ./jb-toolbox.nix { };
