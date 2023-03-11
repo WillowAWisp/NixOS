@@ -5,7 +5,6 @@
     pulsemixer
     killall
     firefox
-    steam
     neovim
     pamixer
     discord
