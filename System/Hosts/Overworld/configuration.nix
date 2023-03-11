@@ -53,7 +53,11 @@
   # Persist system connections.
   
   environment.etc."NetworkManager/system-connections".source = "/nix/persist/etc/NetworkManager/system-connections";
-  
+
+  # Enable nix-flakes
+
+  nix.settings.experimental-features = [ "nix-command", "flakes"]
+
   # Set nixos state version
   
   system.stateVersion = "22.11";
