@@ -18,6 +18,7 @@
           ./System/Hosts/Overworld/hardware.nix # System specific configuration
 	  ./System/Packages/Develop # Development packages
 	  ./System/Packages/Base # Base packages
+	  ./System/Packages/Games # Games
 	  ./System/Packages/Vapour # My DE, BSPWM Based.
           ./Users/Willow # My user
           ./Users/Admin # Root
