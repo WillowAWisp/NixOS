@@ -56,7 +56,7 @@
 
   # Enable nix-flakes
 
-  nix.settings.experimental-features = [ "nix-command" "flakes"]
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Set nixos state version
   
