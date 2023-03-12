@@ -29,6 +29,14 @@
   
   hardware.opengl.driSupport32Bit = true;
 
+  # Fix screen tearing
+
+  services.xserver.screenSection = ''
+    Option  "metamodes" "nvidia-auto-select +0+0 {ForceFullCompositionPipeline=On}"
+    Option  "AllowIndirectGLXProtocol" "off"
+    Option  "TripleBuffer" "on"
+  '';
+
   # Enable sound and Setup Pipewire
   
   sound.enable = true;
