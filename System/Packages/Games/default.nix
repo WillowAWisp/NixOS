@@ -8,6 +8,7 @@
     itch
     steam
     minecraft
+    grapejuice
   ];
 }
 
