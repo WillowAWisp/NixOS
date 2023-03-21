@@ -6,10 +6,16 @@
   # Boot.
   
   boot.initrd.availableKernelModules = [ "nvme" "ahci" "xhci_pci" "usbhid" "usb_storage" "sd_mod" ];
-  boot.initrd.kernelModules = [ ];
+  boot.initrd.kernelModules = [ "nvidia" "nvidia_modeset" "nvidia_uvm" "nvidia_drm" "vfio_pci" "vfio" "vfio_iommu_type1" "vfio_virqfd" ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
   
+  boot.kernelParams = [
+    "amd_iommu=on"
+    "iommu=pt"
+    "vfio-pci.ids=1002:73df,1002:ab28"
+  ];
+
   # Filesystems.
   
   fileSystems."/" = {
