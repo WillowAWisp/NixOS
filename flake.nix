@@ -20,7 +20,7 @@
 	  ./System/Packages/Base # Base packages
 	  ./System/Packages/Games # Games
 	  ./System/Packages/Vapour # My DE, BSPWM Based.
-	  ./System/Packages/VirtualMachine # Virtual Machines
+	  ./System/Packages/VirtualMachines # Virtual Machines
           ./Users/Willow # My user
           ./Users/Admin # Root
         ];
