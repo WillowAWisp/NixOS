@@ -72,4 +72,7 @@
   # Enable all firmware for wireless cards etc.
 
   hardware.enableAllFirmware = true;
+
+  # Enable Index Drivers.
+  hardware.steam-hardware.enable = true;
 }
