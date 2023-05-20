@@ -3,7 +3,6 @@
   
   environment.systemPackages = with pkgs; [
     jetbrains.clion
-    vscode
     clang
     cmake
     meson
