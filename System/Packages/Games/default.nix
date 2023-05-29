@@ -7,7 +7,7 @@
   environment.systemPackages = with pkgs; [
     itch
     steam
-    minecraft
+    prismlauncher
     grapejuice
   ];
 }
